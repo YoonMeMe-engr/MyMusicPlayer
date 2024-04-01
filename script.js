@@ -24,6 +24,11 @@ const playlistContainerTag = document.getElementsByClassName(
       title: "Tsaw Ra Ai Tsaw Hkrup Sai - Ann Naw",
     },
     { trackId: "music/track4.mp3", title: "Yee Zarr Sar - Sai Sai Kham Hlaing " },
+    { trackId: "music/track5.mp3" , title: "Ah Nar Nar Mhar - May Thet Htar Swe" },
+    { trackId: "music/track6.mp3" , title: "Min Atwat Ngar - Su Hlaing & Luhpring" },
+    { trackId: "music/track7.mp3" , title: "Kabar Ah Sat Sat - Bunny Phyoe & Amara Hphone" },
+    { trackId: "music/track8.mp3" , title: "Loso (Nha Lone Thar Say Yar) - Superstar+1" },
+    { trackId: "music/track9.mp3" , title: "Thee Thant Phit Ti Hmu - Myat C Thu" },
   ];
   
   for (let i = 0; i < tracks.length; i++) {
