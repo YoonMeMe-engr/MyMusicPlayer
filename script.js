@@ -124,4 +124,14 @@ const playlistContainerTag = document.getElementsByClassName(
       pauseButtonTag.style.display = "none";
     }
   };
+
+  const updatePlayAndPauseButton = () => {
+    if (isPlaying) {
+      playButtonTag.style.display = "none";
+      pauseButtonTag.style.display = "inline";
+    } else {
+      playButtonTag.style.display = "inline";
+      pauseButtonTag.style.display = "none";
+    }
+  };
   
